@@ -1,0 +1,7 @@
+Truncated Label,Full Label
+"Age_cat: Young, Education-num_cat: Some-HS, Marita...","Age_cat: Young, Education-num_cat: Some-HS, Marital-status: Never-married"
+high_income: False,high_income: False
+"Education: 11th, Native-country: United-States","Education: 11th, Native-country: United-States"
+Education: 11th,Education: 11th
+"Education: Some-college, Relationship: Own-child","Education: Some-college, Relationship: Own-child"
+"Education-num_cat: Some-HS, Marital-status: Never-...","Education-num_cat: Some-HS, Marital-status: Never-married, Race: White, Relationship: Own-child"

@@ -10,6 +10,7 @@ def preprocess_data(df):
                           'Capital-gain', 'Capital-loss', 'Hours-per-week']
     categorical_features = ['Workclass', 'Education', 'Marital-status', 'Occupation',
                             'Relationship', 'Race', 'Sex', 'Native-country']
+
     preprocessor = ColumnTransformer(
         transformers=[
             ('num', StandardScaler(), numerical_features),
@@ -29,5 +30,5 @@ if __name__ == "__main__":
                     'Native-country', 'Income']
     df = pd.read_csv("Data/adult.csv", names=column_names)
 
-    X, names = preprocess_data(df)
+    X_transformed, names = preprocess_data(df)
     print("Preproccessing done")
